@@ -1,0 +1,338 @@
+@font-face {
+    font-family: Inter;
+    src: url(../fonts/Inter/Inter-VariableFont_opsz\,wght.ttf);
+}
+@font-face {
+    font-family: Poppins;
+    src: url(../fonts/Inter/Poppins/Poppins-Bold.ttf);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1132px;
+    width: 100%;
+    padding: 0 16px;
+    margin: 0 auto;
+}
+a{
+    text-decoration: inherit;
+    color: inherit;
+}
+li{
+    list-style: none;
+}
+input{
+    border: none;
+    outline: none;
+}
+button:hover{
+    transform: translateY(-5px);
+    background: #fff;
+    color: #3858D6;
+    border: 1px solid #3858D6;
+}
+.background{
+    background: linear-gradient(155.28deg, #383638 2.06%, #0B0B0B 33.08%);
+
+}
+.btn{
+    cursor: pointer;
+    padding: 10px 30px;
+    border-radius: 8px;
+    background-color: #3858D6;
+    border: none;
+    color: #fff;
+    font-size: 18px;
+    font-family: Poppins;
+    transition: .5s;
+}
+#header{
+    margin-bottom: 10px;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    height: 70px;
+    align-items: center;
+}
+.navbar__logo{
+    display: flex;
+    align-items: center;
+}
+.navbar__logo p{
+    color: #fff;
+    font-family: Poppins;
+}
+.navbar__collection{
+    display: flex;
+    gap: 27px;
+    color: #8B8E99;
+    font-family: Poppins;
+}
+.navbar__item{
+    transition: .5s;
+}
+.navbar__item:hover{
+    color: #fff;
+    transform: translateY(-5px);
+}
+.navbar__icons{
+    display: flex;
+    gap: 20px;
+}
+#hero{
+    margin-bottom: 73px;
+}
+.hero__wrapper{
+    display: flex;
+    align-items: center;
+    gap: 184px;
+}
+.hero__title{
+    font-family: Poppins;
+    font-size: 64px;
+    font-weight: 700;
+    max-width: 457px;
+    color: #ffff;
+}
+.hero__desc{
+    max-width: 456px;
+    color: #8B8E99;
+    font-family: Poppins;
+    margin-bottom: 47px;
+}
+.hero__wrapp-input{
+    display: flex;
+    align-items: center;
+    max-width: 443px;
+    padding: 7px 9px;
+    background-color: #fff;
+    border-radius: 10px;
+}
+.hero__input{
+    flex: 1;
+    height: 100%;
+    background-color: transparent;
+    text-indent: 16px;
+}
+::placeholder{
+    font-weight:500 ;
+    font-family: Poppins;
+    color: #8B8E99B2;
+}
+
+
+.hero__img img{
+    width: 461px;
+}
+#apple{
+    margin-bottom: 135px;
+}
+.apple__card{
+    display: flex;
+    gap: 20px;
+}
+.apple__card-item{
+    width: 354px;
+    height: 239px;
+    border-radius: 22px;
+    padding: 46px 41px;
+    background-color: #F6F6F6;
+    display: flex;
+    align-items: center;
+    gap: 26px;
+}
+.apple__title{
+    font-size: 36px;
+    font-weight: 700;
+    color: #1E1D1D;
+    font-family: Inter;
+    margin-bottom: 9px;
+}
+.apple__desc{
+    max-width: 173px;
+    font-family: Inter;
+    color: #8B8E99;
+}
+.our__wrapp-title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 65px;
+}
+.our__title{
+    font-weight: 500;
+    font-family: Inter;
+    color: #3858D6;
+}
+.our__subtitle{
+    font-size: 36px;
+    font-weight: 700;
+    font-family: Inter;
+}
+.our__card{
+    display: grid;
+    grid-template-columns: repeat(3 , 1fr);
+    grid-gap: 49px;
+}
+.our__card__item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 334px;
+    background-color: #F6F6F6;
+    padding: 21px 43px;
+    border-radius: 20px;
+}
+.our__card__item img{
+    margin-bottom: 10px;
+}
+.our__brand{
+    max-width: 334px;
+    font-size: 24px;
+    font-weight: 600;
+    font-family: Poppins;
+    color: #1E1D1D;
+}
+.our__price del{
+    color: #8B8E99;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: Poppins;
+}
+.our__price strong{
+    font-size: 24px;
+    font-weight: 600;
+    font-family: Poppins;
+    color: #000;
+}
+.bottom__btn{
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+}
+.bottom__btn button{
+    width: 196px;
+    height: 46px;
+    border-radius: 20px;
+    border: none;
+    background-color: #3858D6;
+    color: #ffff;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: Poppins;
+}
+.here__wrapp-title{
+    margin-top: 135px;
+    margin-bottom: 55px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+.here__wrapper{
+    width: 524px;
+    margin-bottom: 40px;
+}
+.here__title{
+    color: #3858D6;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: Inter;
+}
+.here__subtitle{
+    font-size: 36px;
+    font-weight: 700;
+    color: #1E1D1D;
+    font-family: Inter;
+}
+.here__card{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 47px;
+}
+.here__card-item{
+    width: 524px;
+    background-color: #F6F6F6;
+    padding: 30px 40px;
+    border-radius: 22px;
+    display: flex;
+    align-items: center;
+    gap: 29px;
+}
+.here__name{
+    font-size: 26px;
+    font-weight: 700;
+    font-family: Inter;
+    color: #1E1D1D;
+    margin-bottom: 10px;
+}
+.here__desc{
+    max-width: 256px;
+    font-weight: 500;
+    font-family: Inter;
+    color: #8B8E99;
+    margin-bottom: 9px;
+}
+#subscribe{
+    background-color: #F6F6F6;
+    margin-top: 135px;
+}
+.subscribe__wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 33px 110px;
+    gap: 178px;
+}
+.subscribe__title{
+    font-size: 36px;
+    font-weight: 700;
+    font-family: Inter;
+    color: #1E1D1D;
+    margin-bottom: 12px;
+}
+.subscribe__subtitle{
+    font-weight: 500;
+    font-family: Inter;
+    color: #8B8E99;
+    margin-bottom: 12px;
+}
+.subs__input{
+    width: 443px;
+    height: 60px;
+    border-radius: 20px;
+    background-color: #ffff;
+    display: flex;
+}
+.subs__input input{
+    width: 100%;
+    padding: 30px;
+}
+.subscribe__btn{
+    border: none;
+    width: 131px;
+    height: 100%;
+    border-radius: 8px;
+    background-color: #3858D6;
+    color: #ffff;
+    font-weight: 600;
+    font-family: Poppins;
+}
+#footer{
+    margin-top: 91px;
+    background-color: #0B0B0B;
+}
+.footer__wrapper{
+    height: 65px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer__wrapper span{
+    color: #ffff;
+}

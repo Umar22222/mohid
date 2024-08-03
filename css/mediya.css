@@ -1,0 +1,93 @@
+
+@media (max-width: 600px) {
+    .navbar__collection{
+        display: none;
+    }
+    .hero__wrapper{
+        display: flex;
+        flex-direction: column-reverse;
+        padding: 17px;
+        gap: 20px;
+    }
+    .hero__img img{
+        width: 361px;
+    }
+    .hero__title{
+        font-size: 40px;
+    }
+    .hero__wrapp-input{
+        max-width: 343px;
+        height: 40px;
+    }
+    .hero__input{
+        height: 100%;
+    }
+    .hero__btn{
+        width: 90px;
+        height: 35px;
+        font-size: 10px;
+    }
+    .apple__card{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .apple__card-item{
+        width: 300px;
+        height: 210px;
+    }
+    .apple__img img{
+        width: 75px;
+        height: 138px;
+        object-fit: cover;
+    }
+    .apple__title{
+        font-size: 28px;
+    }
+    .apple__desc{
+        font-size: 14px;
+        max-width: 164px;
+    }
+    .our__subtitle{
+        font-size: 30px;
+        font-weight: 600;
+        font-family: Inter;
+    }
+    .our__wrapper{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .our__card{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 39px;
+    }
+    .our__card__item{
+        width: 300px;
+        padding: 18px 33px;
+    }
+    .our__card__item img{
+        max-width: 190px;
+    }
+    .our__brand{
+        font-size: 20px;
+        font-family: Poppins;
+    }
+    .our__price strong,
+    .our__price del{
+        font-size: 13px;
+        font-weight: 400;
+        font-family: Poppins;
+    }
+    .bottom__btn button{
+        width: 166px;
+        font-size: 13px;
+        border-radius: 30px;
+    }
+    .subscribe__wrapper{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+}
